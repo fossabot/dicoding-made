@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".OptionDialogFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who is Manchester United's most successful coach?"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSAF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sir Alex Ferguson"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <RadioButton
+            android:id="@+id/rbMOU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jose Mourinho"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <RadioButton
+            android:id="@+id/rbLVG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Louis Van Gaal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <RadioButton
+            android:id="@+id/rbMoyes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="David Moyes"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Close"
+            android:layout_marginRight="4dp" />
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Choose"
+            android:layout_marginLeft="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
