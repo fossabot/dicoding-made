@@ -5,3 +5,5 @@ https://github.com/fungsiotak/dicoding-made/tree/master/LearnActivity
 https://github.com/fungsiotak/dicoding-made/tree/master/LearnIntent
 ### 3. Learn Fragment
 https://github.com/fungsiotak/dicoding-made/tree/master/LearnFragment
+### 4. Learn AsyncTask
+https://github.com/fungsiotak/dicoding-made/tree/master/LearnAsyncTask
