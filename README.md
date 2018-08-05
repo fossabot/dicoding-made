@@ -13,3 +13,5 @@ https://github.com/fungsiotak/dicoding-made/tree/master/LearnService
 https://github.com/fungsiotak/dicoding-made/tree/master/LearnBroadcastReceiver
 ### 7. Learn Broadcast Receiver 2
 https://github.com/fungsiotak/dicoding-made/tree/master/LearnBroadcastReceiver2
+### 8. Learn Alarm Manager
+https://github.com/fungsiotak/dicoding-made/tree/master/LearnAlarmManager
